@@ -1,0 +1,59 @@
+@media screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+   
+    .banner{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner-child{
+        width: 100%;
+    }
+    .banner-title, .banner-text{
+        text-align: center;
+    }
+    .btn-banner{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
+    .flower{
+        width: 100%;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hot-deal{
+        flex-direction: column;
+        width: 100%;
+    }
+    .delivery{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        padding: 30px;
+    }
+    .instagram{
+        width: 100%;
+    }
+    .in-img{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        
+    }
+    .in{
+        margin: 10px auto;
+    }
+    .offer{
+        width: 100%;
+    }
+    .form-container{
+        
+        flex-direction: column;
+    }
+    
+    
+    
+}

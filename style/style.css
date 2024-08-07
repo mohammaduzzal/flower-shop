@@ -5,3 +5,215 @@
     font-weight: 400;
     font-style: normal;
   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* shared style */
+  .banner-text{
+    font-size: 1.125rem;
+    font-weight: 400px;
+    color: rgba(39, 39, 39, 0.6);
+
+  }
+  /* shared style */
+  body{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  /* banner css starts */
+  .banner{
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-between;
+
+    
+  }
+  .banner-child{
+    border: 1px solid green;
+    width: 100%;
+    text-align:start;
+    
+  }
+  .banner-title{
+    font-size: 5rem;
+    font-weight: 800px;
+    color: rgba(39, 39, 39, 1);
+  }
+  
+  .btn-banner{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: rgba(229, 84, 115, 1);
+    font-size: 1.25rem;
+    font-weight: 700px;
+    color: rgba(255, 255, 255, 1);
+   
+  }
+  .banner-child> img{
+    width: 100%;
+  }
+  /* banner css ends */
+
+  /* flower css starts */
+  .flower{
+    border: 1px solid tomato;
+    margin-top: 30px;
+
+  }
+  .flower-title{
+    font-size: 2.5rem;
+    font-weight: 800px;
+    color: rgba(39, 39, 39, 1);
+    text-align: center;
+  }
+
+  .flower-card-title{
+    font-size: 1.5rem;
+    font-weight: 700px;
+    color: rgba(39, 39, 39, 1);
+    text-decoration: underline;
+    text-align: center;
+  }
+  .card{
+         border: 1px solid seagreen;
+         width: 50%;
+        
+         margin: 0 auto;
+      
+                  
+  }
+  .card> img{
+    width: 100%;
+    background-color: darkgray;
+    
+  }
+  .card-title{
+    font-size: 1.25rem;
+    font-weight: 800px;
+    text-decoration: underline;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+   
+   
+  }
+  .b{
+    margin-top: 50px;
+  }
+  .a{
+    margin-top: 100px;
+  }
+  .delivery{
+    border: 1px solid tomato;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:rgba(0, 0, 255, 0.103);
+    margin-top: 50px;
+  }
+  .delivery-child{
+    width: 40%;
+    margin:0 auto;
+
+  }
+  .delivery-child >img{
+    width: 100%;
+
+  }
+  .delivery-text{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 1);
+  }
+  .hot-deal{
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hot-deal-child{
+    width: 100%;
+    border: 1px solid green;
+    margin-top: 50px;
+    padding: 40px;
+
+  }
+  .hot-deal-child> img{
+    width: 100%;
+  }
+  .instagram{
+    border: 1px solid tomato;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .in-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+  .in{
+    border: 1px solid green;
+    width: 80%;
+    margin-top: 10px ;
+    margin-left: 30px;
+
+   
+ 
+  }
+  .in img{
+    width: 100%;
+
+  }
+  .offer{
+    border: 1px solid tomato;
+    margin-top: 30px;
+    background-image: url(../image/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+  }
+  .form-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  form input{
+    margin-top: 3px;
+    border: none;
+    border-radius: 8px;
+    width:100%;
+    height: 40px;
+      
+  }
+  .footer{
+    border: 1px solid tomato;
+    margin:  0 auto;
+    margin-top: 50px;
+    height: 250px;
+  }
+  footer{
+  background-color: black;
+ 
+  }
+  small{
+    display: block;
+   text-align: center;
+   margin-top: 20px;
+  }
+  
+  
+ 
+
+  
+ 
+
+  
+ 
+
+  /* flower css ends */
